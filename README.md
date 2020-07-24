@@ -4,6 +4,10 @@
 
 [![NPM](https://img.shields.io/npm/v/react-css-dropdown.svg)](https://www.npmjs.com/package/react-css-dropdown) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+<p align="center">
+  <img src="https://github.com/astr0sl0th/react-css-dropdown/blob/master/dropdown_demo.png?raw=true" alt="dropdown demo/>
+</p>
+
 ## Install
 
 ```bash

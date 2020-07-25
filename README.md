@@ -1,4 +1,4 @@
-stackblitz# react-css-dropdown
+# react-css-dropdown
 
 > A customizable react dropdown component that only uses CSS.
 

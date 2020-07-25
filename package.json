@@ -1,7 +1,8 @@
 {
   "name": "react-css-dropdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customizable react dropdown component that only uses CSS.",
+  "keywords": ["react", "dropdown", "css"],
   "author": "Joe Hill",
   "license": "MIT",
   "repository": "astr0sl0th/react-css-dropdown",

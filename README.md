@@ -2,11 +2,9 @@
 
 > A customizable react dropdown component that only uses CSS.
 
-[![NPM](https://img.shields.io/npm/v/react-css-dropdown.svg)](https://www.npmjs.com/package/react-css-dropdown) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-css-dropdown.svg)](https://www.npmjs.com/package/react-css-dropdown) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.com/astr0sl0th/react-css-dropdown.svg?branch=master)](https://travis-ci.com/astr0sl0th/react-css-dropdown)
 
-<p align="center">
-  <img src="https://github.com/astr0sl0th/react-css-dropdown/blob/master/dropdown_demo.png?raw=true" alt="dropdown demo/>
-</p>
+![Image of Yaktocat](https://github.com/astr0sl0th/react-css-dropdown/blob/master/dropdown_demo.png?raw=true)
 
 ## Install
 
@@ -43,7 +41,7 @@ class Example extends Component {
 
 ## Pitfalls
 
-As `react-css-dropdown` still uses native the HTML `<select>` element you are still at the perel of browser styled `<option>` elements but that said at least you don't have to go to the trouble of creating a dropdown from scratch and the complexity that goes along with it.
+As `react-css-dropdown` still uses the native HTML `<select>` element you are still at the perel of browser styled `<option>` elements but that said at least you don't have to go to the trouble of creating a dropdown from scratch and the complexity that goes along with it.
 
 ## License
 

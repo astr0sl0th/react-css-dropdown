@@ -1,10 +1,10 @@
-# react-css-dropdown
+stackblitz# react-css-dropdown
 
 > A customizable react dropdown component that only uses CSS.
 
 [![NPM](https://img.shields.io/npm/v/react-css-dropdown.svg)](https://www.npmjs.com/package/react-css-dropdown) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.com/astr0sl0th/react-css-dropdown.svg?branch=master)](https://travis-ci.com/astr0sl0th/react-css-dropdown)
 
-![Image of Yaktocat](https://github.com/astr0sl0th/react-css-dropdown/blob/master/dropdown_demo.png?raw=true)
+[Stackblitz Demo](https://stackblitz.com/edit/react-css-dropdown)
 
 ## Install
 
@@ -18,7 +18,7 @@ yarn add react-css-dropdown
 ```tsx
 import React, { Component } from 'react'
 
-import Dropdown from 'react-css-dropdown'
+import { Dropdown } from 'react-css-dropdown'
 import 'react-css-dropdown/dist/index.css'
 
 class Example extends Component {

@@ -7,12 +7,14 @@ interface Props {
   containerClass?: string
   selectClass?: string
   arrowClass?: string
-  options: { name: string; value: string | number }[]
-  handleSelect: (value: string) => string | any
+  defaultSelection?: { name?: string; isActive?: boolean }
+  options: { name: string; value: string | number; disabled?: boolean }[]
+  handleSelect: (event: React.ChangeEvent<HTMLSelectElement>) => any
 }
 
 export const Dropdown: React.FunctionComponent<Props> = ({
   options,
+  defaultSelection = { name: 'Choose selection', isActive: true },
   handleSelect,
   containerClass,
   selectClass,
@@ -22,12 +24,16 @@ export const Dropdown: React.FunctionComponent<Props> = ({
     <div className={clsx(styles.selectContainer, containerClass)}>
       <select
         className={clsx(styles.select, selectClass)}
-        onChange={(event: React.ChangeEvent<HTMLSelectElement>) =>
-          handleSelect(event.target.value)
-        }
+        defaultValue={defaultSelection.name}
+        onChange={handleSelect}
       >
-        {options.map(({ name, value }, index) => (
-          <option className={clsx(styles.option)} key={index} value={value}>
+        {defaultSelection.isActive && (
+          <option disabled value={defaultSelection.name}>
+            {defaultSelection.name}
+          </option>
+        )}
+        {options.map(({ name, value, disabled = false }, index) => (
+          <option key={index} value={value} disabled={disabled}>
             {name}
           </option>
         ))}
